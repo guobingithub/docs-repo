@@ -135,7 +135,7 @@ OK！通过docker ps可以看到，上面的3个es节点都运行起来了。
 
 或者查看集群节点：
 
-![2.png](http://note.youdao.com/yws/res/38359/WEBRESOURCE16293db420d3a58deedfcd6046e32c67)
+![2.png](https://github.com/guobingithub/docs-repo/blob/master/images/elk/ELK%E8%BF%9B%E8%A1%8C%E6%97%A5%E5%BF%97%E6%94%B6%E9%9B%86%E7%9A%84%E9%87%87%E5%9D%91%E5%AE%9E%E8%B7%B5/2.png)
 
 
 集群中有3台节点，es-node1为主节点，es-node2  es-node3为从节点。
@@ -153,8 +153,7 @@ OK！通过docker ps可以看到，上面的3个es节点都运行起来了。
 ```
 接下来，就可以通过es-head插件查看es集群的状态信息：
 
-![3.png](http://note.youdao.com/yws/res/38390/WEBRESOURCE7c170dcf89992842fd42b8485e35757a)
-
+![3.png](https://github.com/guobingithub/docs-repo/blob/master/images/elk/ELK%E8%BF%9B%E8%A1%8C%E6%97%A5%E5%BF%97%E6%94%B6%E9%9B%86%E7%9A%84%E9%87%87%E5%9D%91%E5%AE%9E%E8%B7%B5/3.png)
 
 
 ### logstash篇
@@ -340,7 +339,7 @@ Enter host password for user 'elastic':
 
 或者web页面查看：
 
-![4.png](http://note.youdao.com/yws/res/38651/WEBRESOURCE58e601fcd65f07cd6f05c9923a5eac28)
+![4.png](https://github.com/guobingithub/docs-repo/blob/master/images/elk/ELK%E8%BF%9B%E8%A1%8C%E6%97%A5%E5%BF%97%E6%94%B6%E9%9B%86%E7%9A%84%E9%87%87%E5%9D%91%E5%AE%9E%E8%B7%B5/4.png)
 
 ##### 2.4 挂载文件问题
 
@@ -480,12 +479,12 @@ docker logs -f kibana
 
 索引
 
-![5.png](http://note.youdao.com/yws/res/38829/WEBRESOURCE9136bf230a99cf93a0655c490245bb97)
+![5.png](https://github.com/guobingithub/docs-repo/blob/master/images/elk/ELK%E8%BF%9B%E8%A1%8C%E6%97%A5%E5%BF%97%E6%94%B6%E9%9B%86%E7%9A%84%E9%87%87%E5%9D%91%E5%AE%9E%E8%B7%B5/5.png)
 
 
 日志
 
-![6.png](http://note.youdao.com/yws/res/38837/WEBRESOURCE7bedf8e08d06910041bb7545d232333d)
+![6.png](https://github.com/guobingithub/docs-repo/blob/master/images/elk/ELK%E8%BF%9B%E8%A1%8C%E6%97%A5%E5%BF%97%E6%94%B6%E9%9B%86%E7%9A%84%E9%87%87%E5%9D%91%E5%AE%9E%E8%B7%B5/6.png)
 
 
 OK！预期的索引和日志都展示出来了，基于elk日志的收集和展示初步搭建成功！
