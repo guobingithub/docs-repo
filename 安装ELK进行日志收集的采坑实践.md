@@ -130,7 +130,7 @@ docker run -e ES_JAVA_OPTS="-Xms256m -Xmx256m" -d -p 9202:9202 -p 9302:9302 -v ~
 OK！通过docker ps可以看到，上面的3个es节点都运行起来了。
 通过web页面可以访问到集群：
 
-![1.png](http://note.youdao.com/yws/res/38355/WEBRESOURCE2046a43750c7e2567abac98e7400ac5e)
+![1.png](https://github.com/guobingithub/docs-repo/blob/master/images/elk/ELK%E8%BF%9B%E8%A1%8C%E6%97%A5%E5%BF%97%E6%94%B6%E9%9B%86%E7%9A%84%E9%87%87%E5%9D%91%E5%AE%9E%E8%B7%B5/1.png?raw=true)
 
 
 或者查看集群节点：
